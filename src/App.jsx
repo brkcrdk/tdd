@@ -1,10 +1,10 @@
 import "./App.css";
-import { Tabs } from "./components";
+import { TabsComponent } from "./components";
 
 function App() {
   return (
-    <div className="App">
-      <Tabs />
+    <div className="App" data-testid="app-container">
+      <TabsComponent />
     </div>
   );
 }
