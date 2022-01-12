@@ -1,1 +1,1 @@
-export { default as Tabs } from "./Tabs";
+export { default as TabsComponent } from "./TabsComponent";
